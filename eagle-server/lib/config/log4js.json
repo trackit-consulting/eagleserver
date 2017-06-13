@@ -1,0 +1,20 @@
+{  
+   "appenders":[  
+      {  
+         "category":"server",
+         "type":"dateFile",
+         "filename":"./logs/server.log",
+         "pattern":"-yyyy-MM-dd"
+      }, {
+         "category":"client",
+         "type":"dateFile",
+         "filename":"./logs/client.log",
+         "pattern":"-yyyy-MM-dd"
+      }, {
+         "category":"test",
+         "type":"dateFile",
+         "filename":"./logs/test.log",
+         "pattern":"-yyyy-MM-dd"
+      }
+   ]
+}
